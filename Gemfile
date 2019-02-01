@@ -52,3 +52,20 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+#gem file for faker
+gem 'faker', :git => 'https://github.com/stympy/faker.git', :branch => 'master'
+
+#install
+
+# Debian and Ubuntu
+
+#install rails-erd
+group :development do
+  gem "rails-erd"
+end
+
+#install annotate
+group :development do
+  gem 'annotate'
+end
