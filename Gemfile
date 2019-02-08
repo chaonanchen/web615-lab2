@@ -83,4 +83,4 @@ end
 
 gem 'rails_12factor', group: :production
 
-gem 'ruby', '~>2.4.1'
+#gem 'ruby', '~>2.4.1'
